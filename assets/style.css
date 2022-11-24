@@ -1,3 +1,47 @@
+header {
+  float: right;
+  color: bisque;
+
+}
+.me {
+  float: left;
+  height: 200px;
+  width: 300px;
+}
+ .nav {
+  display: flex;
+ }
+ 
+ #about h2{
+  font-size: 40px;
+ }
+
+ .flexlist2 img {
+  display: flex; 
+  width: 350px;
+  height: 300px;
+  align-items: center;
+  
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 900px) {
     nav {
       width: 50%;

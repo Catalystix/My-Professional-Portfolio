@@ -12,22 +12,23 @@
         <h1>Drew <span class="lastname">Greenblatt</span></h1>
             <p>A Full Stack Web Development Students Portfolio</p>
             <!-- push this right -->
-    </Header>
-        <img src="" alt="Photo of ME">
+    
+        <img class="me" src="./assets/images/fptower.jpg" alt="Photo of ME">
         <!-- push this left -->
+    </Header>
     <Nav class="nav">
         <ul>
-            <li class="about"><a href="#about">About</a></li>
-            <li class="project"><a href="#project"></a>Projects</li>
-            <li class="contact"><a href="#contact"></a>Contact</li>
+            <li class="list"><a href="#about">About</a></li>
+            <li class="list"><a href="#project">Projects</a></li>
+            <li class="list"><a href="#contact">Contact</a></li>
         </ul>
         <!-- flex box this, space between, borders,and hovor transforms -->
     </Nav>
 
     <main>
          <!-- use an imported typeface for all headers and p & li items-->
-        <section>
-            <h2 id="about">About Me></h2>
+        <section id="about">
+            <h2>About Me</h2>
            
                 <p>My name is Drew and I am a full stack Web Development student!
             I am swapping career fields from being an awarded chef and restaruant owner for the better
@@ -38,20 +39,23 @@
 
         <section>
             <h2 id="project">My Projects</h2>
-            <ul>
-                <li>Gaming Blog</li>
-                <li>About the cats</li>
-                <li>SEO Refactor</li>
+            <ul class="flexlist1">
+                <li><a href="https://catalystix.github.io/gaming-blog/">Gaming Blog</a></li>
+                <li><a href="https://catalystix.github.io/4cats/">Cats</a></li>
+                <li><a href="https://catalystix.github.io/CW1-Horiseon-Refactorino/">Refactor</a></li>
             </ul>
-            <img src="" alt="A logo of mine">
-            <img src="" alt="4cats">
-            <!-- make this 4cats image larger and grow on hover / images need links to websites-->
-            <img src="" alt="SEO website Screenshot">
+            <ul class="flexlist2">
+                <li> <img src="./assets/images/CB.jpg" alt="A logo of mine"></li>
+                <li> <img class= "cats" src="./assets/images/K.jpg" alt="4cats"></li>
+                <!-- make this 4cats image larger and grow on hover / images need links to websites-->
+                <li> <img src="./assets/images/CW1 SC.jpg" alt="SEO website Screenshot"></li>
+            </ul>
         </section>
 
         <section id="contact">
             <h2>Contact me</h2>
 <!-- make a contact me form -->
+<!-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form -->
         </section>
 
     </main>
