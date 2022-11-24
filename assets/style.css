@@ -3,7 +3,7 @@ header {
   color: bisque;
 
 }
-.me {
+ .me {
   float: left;
   height: 200px;
   width: 300px;
@@ -16,27 +16,23 @@ header {
   font-size: 40px;
  }
 
- .flexlist2 img {
-  display: flex; 
-  width: 350px;
-  height: 300px;
-  align-items: center;
+ .flexlist1 {
+  display: flex;
+  justify-content: center;
   
  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+ .flexlist2 {
+  display: flex;
+  justify-content: center;
+ 
+  
+ }
+li img {
+  width: 350px;
+  height: 300px;
+  align-items: center;
+}
 
 
 
