@@ -30,24 +30,24 @@
         <section id="about">
             <h2>About Me</h2>
            
-                <p>My name is Drew and I am a full stack Web Development student!
+                <p>I am Drew Greenblatt and I am your full stack Web Developer!
             I am swapping career fields from being an awarded chef and restaruant owner for the better
             to spend more time with my wife and son. I've always found interest in coding and finally 
             decided to press enter. 
                 </p>
             </section>
 
-        <section>
+        <section class="project">
             <h2 id="project">My Projects</h2>
-            <div class="flexlist1">
+            <div class="imglist1">
                 <ul>
-                <li><a href="https://catalystix.github.io/gaming-blog/">Gaming Blog</a></li>
-                <li><a href="https://catalystix.github.io/4cats/">Cats</a></li>
-                <li><a href="https://catalystix.github.io/CW1-Horiseon-Refactorino/">Refactor</a></li>
+                <li class="list"><a href="https://catalystix.github.io/gaming-blog/">Gaming Blog</a></li>
+                <li class="list"><a href="https://catalystix.github.io/4cats/">Cats</a></li>
+                <li class="list"><a href="https://catalystix.github.io/CW1-Horiseon-Refactorino/">Refactor</a></li>
                 </ul>
             </div>
 
-            <div class="flexlist2">
+            <div class="imglist2">
                 <ul>
                     <li> <img src="./assets/images/CB.jpg" alt="A logo of mine"></li>
                     <li> <img class= "cats" src="./assets/images/K.jpg" alt="4cats"></li>
@@ -58,18 +58,43 @@
         </section>
 
         <section id="contact">
-            <h2>Contact me</h2>
 <!-- make a contact me form -->
 <!-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form -->
         </section>
 
     </main>
-
+    <div class="container">
+        <div style="text-align:center">
+          <h2>Contact Me</h2>
+          <p>Check in on a work in progress, or leave a message:</p>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="./assets/images/mail.png">
+          </div>
+          <div class="column">
+            <form action="/action_page.php">
+              <label for="fname">Your Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <label for="request">Area of request</label>
+              <select id="request" name="request">
+                <option value="Development">Development</option>
+                <option value="CSS">CSS</option>
+                <option value="HTML">HTML</option>
+                 </select>
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+      </div>
     <footer>
-        <h2 class="footer">Made with hope by Drew</h2>
+        <h3 class="footer">Made with hope by Drew</h2>
         <p>&copy Catalyst 2022</p>
     </footer>
 </body>
 </html>
 
 <!-- https://catalystix.github.io/4cats/ -->
+

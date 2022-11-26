@@ -1,51 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+
+
 header {
-  float: right;
-  color: bisque;
+  float: left;
+  color: #0077B6;
+  font-family: 'Space Grotesk', sans-serif;
+  padding-left: 50px;
+  background-color: #caf0f8;
+
+}
+
+body {
+  background-color: #caf0f8;
+}
+
+.lastname {
+  color: #00B4D8;
 
 }
  .me {
-  float: left;
   height: 200px;
   width: 300px;
+  color: #03045E;
 }
  .nav {
   display: flex;
+  margin-top: 100px;
+  justify-content: flex-end;
  }
  
  #about h2{
   font-size: 40px;
+  margin-top: 100px;
+  font-family: 'Space Grotesk', sans-serif;
+  text-align: center;
+  color: #03045E;
+ }
+ 
+ h2  {
+  font-family: 'Space Grotesk', sans-serif;
+  text-align: center;
+  font-size: 40px;
+  color: #03045E;
  }
 
- .flexlist1 {
-  display: flex;
+ .imglist1 {
   justify-content: center;
+ }
+
+ .imglist1 ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: -20px;
+ }
+
+ .imglist1 li {
+  display: inline;
+  margin: 70px;
+  padding: 15px;
+  border: 2px #03045E solid;
+  background-color: #90E0EF;
+  border-radius: 10px;
   
  }
 
- .flexlist2 {
+ .imglist2 {
   display: flex;
   justify-content: center;
  
   
  }
+
+ .imglist2 li {
+  display: inline;
+ }
+
+ .list a {
+  text-decoration: none;
+ }
+
+.list {
+  display: inline;
+    margin: 70px;
+    padding: 15px;
+    border: 2px #03045E solid;
+    background-color: #90E0EF;
+    border-radius: 10px;
+    margin-inline: auto;
+
+}
+.list:hover {
+  background-color: #00B4D8;
+  z-index: 1;
+  transform:scale(1.2)
+}
+
 li img {
   width: 350px;
   height: 300px;
   align-items: center;
+  border-radius: 40px;
+}
+li img:hover {
+  transform: rotate(25deg);
+  z-index: 1;
+}
+
+.cats img {
+
+  /* put into diffent containter to fix for acceptance criteria */
+  width: 400px;
+  height: 350px;
+}
+
+p {
+  font-family: 'Space Grotesk', sans-serif;
+  margin: 20px;
+  margin-bottom: 50px;
+  color: #03045E;
+}
+
+main {
+  margin-top: 350px;
 }
 
 
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #03045E;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #caf0f8;
+  color: #03045E;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #caf0f8;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  /* background-color: #f2f2f2;  */
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  /* padding: 20px;  */
+}
+
+.column img {
+  width: 250px;
+  height: 250px;
+  margin-left: 150px;
+  margin-top: 50px;
+}
 
 
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
-@media screen and (max-width: 900px) {
-    nav {
-      width: 50%;
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+@media screen and (max-width: 750px) {
+    nav, ul, li.list {
+      width: 100%;
+      margin: 5px;
+      padding: 5px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+
     }
   }
-@media screen and (max-width: 600px) {
-    nav {
-        width: 100%;
-    }
-    
+@media screen and (max-width: 400px) {
+    nav, ul, li.list {
+      width: 100%;
+      margin: 5px;
+      padding: 5px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+
+    }   
+}
+
+@media screen and (max-width: 400px) {
+  #about h2 {
+    margin-top: -360px;
+  }
+}
+
+@media screen and (max-width: 75px) {
+  #about h2 {
+    margin-top: -360px;
+  }
 }
