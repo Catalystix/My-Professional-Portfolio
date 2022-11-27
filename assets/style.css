@@ -7,6 +7,7 @@ header {
   font-family: 'Space Grotesk', sans-serif;
   padding-left: 50px;
   background-color: #caf0f8;
+  width: 50%;
 
 }
 
@@ -62,12 +63,14 @@ body {
   border: 2px #03045E solid;
   background-color: #90E0EF;
   border-radius: 10px;
+  margin-bottom: 33px;
   
  }
 
- .imglist2 {
+ .imglist2 ul{
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
  
   
  }
@@ -107,7 +110,7 @@ li img:hover {
   z-index: 1;
 }
 
-.cats img {
+.cats {
 
   /* put into diffent containter to fix for acceptance criteria */
   width: 400px;
@@ -123,6 +126,14 @@ p {
 
 main {
   margin-top: 350px;
+}
+
+
+.link-photos {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
 }
 
 
@@ -142,10 +153,14 @@ input[type=submit] {
   padding: 12px 20px;
   border: none;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 input[type=submit]:hover {
   background-color: #caf0f8;
+  background-color: #00B4D8;
+  z-index: 1;
+  transform:scale(1.2)
 }
 
 /* Style the container/contact section */
@@ -158,7 +173,7 @@ input[type=submit]:hover {
 /* Create two columns that float next to eachother */
 .column {
   float: left;
-  width: 50%;
+  width: 48%;
   margin-top: 6px;
   /* padding: 20px;  */
 }
@@ -166,8 +181,8 @@ input[type=submit]:hover {
 .column img {
   width: 250px;
   height: 250px;
-  margin-left: 150px;
-  margin-top: 50px;
+  /* margin-left: 150px; */
+  /* margin-top: 50px; */
 }
 
 
@@ -178,12 +193,29 @@ input[type=submit]:hover {
   clear: both;
 }
 
+#img-column {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.row {
+  display: flex;
+  align-content: center;
+}
+
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
   .column, input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ 
 }
 
 
@@ -197,6 +229,9 @@ input[type=submit]:hover {
       justify-content: space-around;
 
     }
+    #about h2 {
+      margin-top: -360px;
+    }
   }
 @media screen and (max-width: 400px) {
     nav, ul, li.list {
@@ -206,18 +241,9 @@ input[type=submit]:hover {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
-
-    }   
-}
-
-@media screen and (max-width: 400px) {
-  #about h2 {
-    margin-top: -360px;
-  }
-}
-
-@media screen and (max-width: 75px) {
-  #about h2 {
-    margin-top: -360px;
-  }
+     
+    } 
+    #about h2 {
+      margin-top: -360px;
+    }  
 }

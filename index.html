@@ -33,27 +33,31 @@
                 <p>I am Drew Greenblatt and I am your full stack Web Developer!
             I am swapping career fields from being an awarded chef and restaruant owner for the better
             to spend more time with my wife and son. I've always found interest in coding and finally 
-            decided to press enter. 
+            decided to press enter. I have built a couple of webpages on my own before starting class and they are works
+            in progress as I go and learn more I add to them!
                 </p>
             </section>
 
         <section class="project">
             <h2 id="project">My Projects</h2>
-            <div class="imglist1">
-                <ul>
-                <li class="list"><a href="https://catalystix.github.io/gaming-blog/">Gaming Blog</a></li>
-                <li class="list"><a href="https://catalystix.github.io/4cats/">Cats</a></li>
-                <li class="list"><a href="https://catalystix.github.io/CW1-Horiseon-Refactorino/">Refactor</a></li>
-                </ul>
-            </div>
-
             <div class="imglist2">
                 <ul>
-                    <li> <img src="./assets/images/CB.jpg" alt="A logo of mine"></li>
-                    <li> <img class= "cats" src="./assets/images/K.jpg" alt="4cats"></li>
-                    <!-- make this 4cats image larger and grow on hover / images need links to websites-->
-                    <li> <img src="./assets/images/CW1 SC.jpg" alt="SEO website Screenshot"></li>
+                    <div class="link-photos">
+                        <li class="list"><a href="https://catalystix.github.io/gaming-blog/">Gaming Blog</a></li>
+                        <li><a href="https://catalystix.github.io/gaming-blog/"> <img src="./assets/images/CB.jpg" alt="A logo of mine"></a></li>
+                    </div>
+                <div class="link-photos">
+                    <li class="list"><a href="https://catalystix.github.io/4cats/">Cats</a></li>
+                    <li><a href="https://catalystix.github.io/4cats/"> <img class= "cats" src="./assets/images/K.jpg" alt="4cats"></a></li>
+                </div>
+                <div class="link-photos">
+                    <li class="list"><a href="https://catalystix.github.io/CW1-Horiseon-Refactorino/">Refactor</a></li>
+                    <li><a href="https://catalystix.github.io/CW1-Horiseon-Refactorino/"> <img src="./assets/images/CW1 SC.jpg" alt="SEO website Screenshot"></a></li>
+                </div>
+                
                 </ul>
+            
+    
             </div>
         </section>
 
@@ -69,10 +73,10 @@
           <p>Check in on a work in progress, or leave a message:</p>
         </div>
         <div class="row">
-          <div class="column">
+          <div class="column" id="img-column">
             <img src="./assets/images/mail.png">
           </div>
-          <div class="column">
+          <div class="column" >
             <form action="/action_page.php">
               <label for="fname">Your Name</label>
               <input type="text" id="fname" name="firstname" placeholder="Your name..">
