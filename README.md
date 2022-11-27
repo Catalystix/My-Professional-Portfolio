@@ -2,9 +2,8 @@
 <!-- edit this form to match a readme related to this project -->
 
 * This project was given to us at unc's bootcamp to help us consolidate our learning for weeks 1 and 2 in html, css and git. 
-* This is a basic Static html webpage
-* I didnt struggle much with the actual project and what it entailed. The Issue was github and the cloning process was so bugged up that I had to break down each of the pieces of starter code by cloning and copying it to a new file and attempting the push until I singled out the item causing the issue and had to get that file from a tutor. 
-None the less we do have a final product and that is part of the process sometimes.
+* This is a basic Static html webpage with some reactive webpage elements such as hovor and webpage size changing.
+* The initial building of the structure seems to go smoothly as you get into making it reactive to certain screen sizing is where making sure you have the correct elements doing what you want them to do becomes the challenge but a good one and worth it when you have it all come together. 
 
 # "Sometimes you run into very strange errors that are difficult to solve and that's a part of programming sometimes. Sucks to have to deal with it" Andrew Hardemon
 
@@ -13,10 +12,9 @@ None the less we do have a final product and that is part of the process sometim
     HTML
     CSS
 
-# In this code you will find a much more polished looking index.html and style.css file while getting the same results
- * There were many duplicate or redundant class tags
- * replced div with semantic html 
- * commented where I made changes (this helps a lot)
+# In this code you will find reactive webpage elements and fully semantic html elements
+ * We learned reactive syntax this week and I wanted to include some of that to give some extra to the page.
+ * commented what I wanted to do with my code as I build the structure 
 
 # Setup/Installation REquirements
     Clone this repository to your desktop
@@ -24,9 +22,9 @@ None the less we do have a final product and that is part of the process sometim
     open index.html
 
 # Credits
- * Starter Code https://github.com/coding-boot-camp/urban-octo-telegram
+ * W3 Schools for contact form instructions as we skipped this instructional in class
  * W3 Schools for README.MD Directions
 
- https://catalystix.github.io/CW1-Horiseon-Refactorino/
- https://github.com/Catalystix/CW1-Horiseon-Refactorino
+ https://catalystix.github.io/My-Professional-Portfolio/
+ https://github.com/Catalystix/My-Professional-Portfolio
 
