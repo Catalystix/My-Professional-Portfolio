@@ -29,3 +29,4 @@
  https://catalystix.github.io/My-Professional-Portfolio/
  https://github.com/Catalystix/My-Professional-Portfolio
 
+![CW2 SC](https://user-images.githubusercontent.com/110114608/205437819-7bcfefc5-fdf6-42e8-8739-4e9a5031cfb5.jpg)
