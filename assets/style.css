@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap");
 
 /* :root { 
   --darkestblue: #03045E;
@@ -9,17 +9,14 @@
 
 I will use this in the future! */
 
-
-
 /* Flex all the things...well not all of them */
 header {
   float: left;
-  color: #0077B6;
-  font-family: 'Space Grotesk', sans-serif;
+  color: #0077b6;
+  font-family: "Space Grotesk", sans-serif;
   padding-left: 50px;
   background-color: #caf0f8;
   width: 50%;
-
 }
 
 body {
@@ -27,90 +24,84 @@ body {
 }
 
 .lastname {
-  color: #00B4D8;
-
+  color: #00b4d8;
 }
- .me {
+.me {
   height: 200px;
   width: 300px;
-  color: #03045E;
+  color: #03045e;
 }
- .nav {
+.nav {
   display: flex;
   margin-top: 100px;
   justify-content: flex-end;
   width: 40%;
- }
- 
- #about h2{
+}
+
+#about h2 {
   font-size: 40px;
   margin-top: 100px;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   text-align: center;
-  color: #03045E;
- }
- 
- h2  {
-  font-family: 'Space Grotesk', sans-serif;
+  color: #03045e;
+}
+
+h2 {
+  font-family: "Space Grotesk", sans-serif;
   text-align: center;
   font-size: 40px;
-  color: #03045E;
- }
+  color: #03045e;
+}
 
- .imglist1 {
+.imglist1 {
   justify-content: center;
- }
+}
 
- .imglist1 ul {
+.imglist1 ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   margin: -20px;
- }
+}
 
- .imglist1 li {
+.imglist1 li {
   display: inline;
   margin: 70px;
   padding: 15px;
-  border: 2px #03045E solid;
-  background-color: #90E0EF;
+  border: 2px #03045e solid;
+  background-color: #90e0ef;
   border-radius: 10px;
   margin-bottom: 33px;
-  
- }
+}
 
- .imglist2 ul{
+.imglist2 ul {
   display: flex;
   /* flex-wrap: wrap;  */
   justify-content: space-around;
- 
-  
- }
+}
 
- .imglist2 li {
+.imglist2 li {
   display: inline;
- }
+}
 
- .list a {
+.list a {
   text-decoration: none;
- }
+}
 
 .list {
   display: inline;
-    margin: 70px;
-    padding: 15px;
-    border: 2px #03045E solid;
-    background-color: #90E0EF;
-    border-radius: 10px;
-    margin-inline: auto;
-
+  margin: 70px;
+  padding: 15px;
+  border: 2px #03045e solid;
+  background-color: #90e0ef;
+  border-radius: 10px;
+  margin-inline: auto;
 }
 .list:hover {
-  background-color: #00B4D8;
+  background-color: #00b4d8;
   z-index: 1;
-  transform:scale(1.2)
+  transform: scale(1.2);
 }
-
 
 li img {
   width: 350px;
@@ -124,23 +115,21 @@ li img:hover {
 }
 
 .cats {
-
   /* put into diffent containter to fix for acceptance criteria */
   width: 400px;
   height: 350px;
 }
 
 p {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   margin: 20px;
   margin-bottom: 50px;
-  color: #03045E;
+  color: #03045e;
 }
 
 main {
   margin-top: 350px;
 }
-
 
 .link-photos {
   display: flex;
@@ -155,31 +144,32 @@ main {
   /* flex-wrap: wrap;  */
 }
 
-
 /* Style inputs */
-input[type=text], select, textarea {
+input[type="text"],
+select,
+textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid #03045E;
+  border: 1px solid #03045e;
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
 }
 
-input[type=submit] {
+input[type="submit"] {
   background-color: #caf0f8;
-  color: #03045E;
+  color: #03045e;
   padding: 12px 20px;
   border: none;
   cursor: pointer;
   border-radius: 10px;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: #caf0f8;
-  background-color: #00B4D8;
+  background-color: #00b4d8;
   z-index: 1;
-  transform:scale(1.2)
+  transform: scale(1.2);
 }
 
 /* Style the container/contact section */
@@ -204,7 +194,6 @@ input[type=submit]:hover {
   /* margin-top: 50px; */
 }
 
-
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -215,7 +204,6 @@ input[type=submit]:hover {
 #img-column {
   display: flex;
   justify-content: space-around;
-
 }
 
 .row {
@@ -233,7 +221,8 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-width: 850px) {
-  .column, input[type=submit] {
+  .column,
+  input[type="submit"] {
     width: 100%;
     margin-top: 0;
   }
@@ -243,36 +232,36 @@ input[type=submit]:hover {
     align-items: center;
     /* flexing to adapt */
   }
-
 }
 
-
 @media screen and (max-width: 750px) {
-   nav, ul, li.list {
-      width: 100%;
-      margin: 5px;
-      padding: 5px;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-
-    }
-    #about h2 {
-      margin-top: -360px;
-    }
+  nav,
+  ul,
+  li.list {
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
+  #about h2 {
+    margin-top: -360px;
+  }
+}
 @media screen and (max-width: 400px) {
-    nav, ul, li.list {
-      width: 100%;
-      margin: 5px;
-      padding: 5px;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-     
-    } 
-    #about h2 {
-      margin-top: -360px;
-    }  
-    /* big weird adjustment here for adapting to screen size but it finally works! */
+  nav,
+  ul,
+  li.list {
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  #about h2 {
+    margin-top: -360px;
+  }
+  /* big weird adjustment here for adapting to screen size but it finally works! */
 }
