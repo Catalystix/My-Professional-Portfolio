@@ -2,8 +2,9 @@
 <!-- edit this form to match a readme related to this project -->
 
 * This project was given to us at unc's bootcamp to help us consolidate our learning for weeks 1 and 2 in html, css and git. 
-* This is a basic Static html webpage with some reactive webpage elements such as hovor and webpage size changing.
+* This is a basic Static html webpage with some reactive webpage elements such as hovor and webpage responsiveness.
 * The initial building of the structure seems to go smoothly as you get into making it reactive to certain screen sizing is where making sure you have the correct elements doing what you want them to do becomes the challenge but a good one and worth it when you have it all come together. 
+* 
 
 # "Sometimes you run into very strange errors that are difficult to solve and that's a part of programming sometimes. Sucks to have to deal with it" Andrew Hardemon
 
