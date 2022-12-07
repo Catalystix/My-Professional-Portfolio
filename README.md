@@ -1,4 +1,4 @@
-# Coding Challenge Week 2 Professional Portfolio
+# Coding Challenge Week 2 Professional Portfolio  kk
 <!-- edit this form to match a readme related to this project -->
 
 * This project was given to us at unc's bootcamp to help us consolidate our learning for weeks 1 and 2 in html, css and git. 
